@@ -57,8 +57,8 @@ public class Exchange {
 		// Does ticker exist? See if the security associated with the order exists in the list of securities
         //This is a test for git
         //This is another test for git 
-		if (__________________________ == null) {
-			System.err.println("Order validation: ticker " + ______________.getTicker() + " not supported.");
+		if (securities.getSecurityByTicker(o.getSecurity().getTicker()) == null) {
+			System.err.println("Order validation: ticker " + o.getSecurity().getTicker() + " not supported.");
 			return (false);
 		}
 		
