@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: ca.yorku.cmg.lob.exchange.ExchangeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.079 s <<< FAILURE! -- in ca.yorku.cmg.lob.exchange.ExchangeTest
+ca.yorku.cmg.lob.exchange.ExchangeTest.testSubmitOrder -- Time elapsed: 0.038 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	____________ cannot be resolved
+	_____________________ cannot be resolved to a variable
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	_______________________________________________ cannot be resolved
+	____________ cannot be resolved
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error on token ";", delete this token
+	Syntax error on token ";", delete this token
+	Syntax error on token ";", delete this token
+	Syntax error on token ";", delete this token
+
+	at ca.yorku.cmg.lob.exchange.Exchange.submitOrder(Exchange.java:108)
+	at ca.yorku.cmg.lob.exchange.Exchange.processOrderFile(Exchange.java:310)
+	at ca.yorku.cmg.lob.exchange.ExchangeTest.testSubmitOrder(ExchangeTest.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
